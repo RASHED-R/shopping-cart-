@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital@1&family=Poppins&family=Raleway&family=Roboto:ital@1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital@1&family=Mulish&family=Poppins&family=Raleway&family=Roboto:ital@1&display=swap");
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital@1&family=Mulish&family=Poiret+One&family=Poppins&family=Raleway&family=Roboto:ital@1&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+p {
+    font-family: Mulish, sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: rgb(153, 153, 153);
+    line-height: 1.8;
+    margin: 0px;
+}
+
+body {
+    font-family: Poppins, sans-serif;
+}
+
+ul {
+    padding: 0;
+    margin: 0px;
+}
+
+li,
+a {
+    list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0px;
+    font-weight: 600;
+    line-height: 1.4;
+}
+
+.quantity {
+    display: flex;
+    justify-content: center;
+}
+
+.quantity button {
+    width: 45px;
+    height: 45px;
+    border: 1px solid #000;
+    color: #000;
+    border-radius: 0;
+    background-color: #fff;
+}
+
+.quantity input {
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+    text-align: center;
+    width: 100px;
+    font-style: 20px;
+    color: #000;
+    font-weight: 300;
+}
+
+.total-price {
+    text-align: center;
+    font-style: 30px;
+
+}
+
+.total-price .fa-dollar-sign {
+    text-align: center;
+    font-style: 30px;
+
+}
